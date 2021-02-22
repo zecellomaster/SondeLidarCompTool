@@ -9,17 +9,16 @@ clearvars
 
 %Current file you would like to compare data
 %Enter the pathname for folder that contains data
-sounding_folder = "C:\Users\BOSS COMPUTER\Documents\Hart Miller Island 2018\Plotting Data\HMI\Ozonesondes\";
-sounding_file = "owlets2-HMI_SONDE_20180630_R0_L1.ict"; %Enter file name
+sounding_folder = "";
+sounding_file = ""; %Enter file name
 sonde_data = ICARTTreader(strcat(sounding_folder,sounding_file));
 
 %Save location of file for the processed data
-save_loc = strcat('C:\Users\BOSS COMPUTER\Documents\Hart Miller Island 2018\Plotting Data\',...
-    'ProcessedData.csv');
+save_loc = strcat('');
 
 %Enter the pathname for folder that contains data
-lidar_folder = "C:\Users\BOSS COMPUTER\Documents\Hart Miller Island 2018\Plotting Data\HMI\Ozone Lidar\";
-lidar_file = "owlets2-HMI-LMOL-LaRC_Ozone-Lidar_20180630_R1.h5"; %Enter file name
+lidar_folder = "";
+lidar_file = ""; %Enter file name
 lidar = strcat(lidar_folder,lidar_file);
 
 
