@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 #Enter the location of the processed data file
-data_loc = "C:/Users/BOSS COMPUTER/Documents/Hart Miller Island 2018/Plotting Data/ProcessedData.csv"
+data_loc = ""
 
 #def OzoneDataPlotter(data_loc):
 data = pd.read_csv(data_loc)
